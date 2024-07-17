@@ -25,6 +25,27 @@
     /* background: #1e2238; */
     background: transparent;
   }
+
+  /* Remove scrollbar */
+  .remove-scrollbar::-moz-scrollbar {
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+  }
+
+  .remove-scrollbar::-moz-scrollbar-track {
+    background: transparent;
+  }
+
+  .remove-scrollbar::-moz-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0px;
+  }
+
+  .remove-scrollbar::-moz-scrollbar-thumb:hover {
+    /* background: #1e2238; */
+    background: transparent;
+  }
 }
 
 @layer utilities {
